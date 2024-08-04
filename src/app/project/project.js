@@ -54,7 +54,7 @@ const projectData = [
       "Our LMS homepage, built with Next.js and Tailwind CSS, includes a popup call button, chatbot, and MongoDB-connected enquiry form for secure data storage, ensuring a seamless, interactive user experience.",
     tech: "Nextjs/Reactjs, Tailwind CSS, Express, MongoDB, React-Form-Hook",
     git: "https://github.com/AravinthanSankaran/LMS_homepage",
-    live: "https://lmslearnmore.netlify.app/",
+    live: "https://learnmorelms.netlify.app/",
   },
 ];
 

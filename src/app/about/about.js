@@ -11,7 +11,7 @@ function about() {
         <p className="text-gray-600 text-lg text-justify md:text-center">
           I have nearly <b>two</b> years of experience in web development,
           specializing in building applications with React, Next.js, and
-          Node.js. I also work with MongoDB for database management. I've been
+          Node.js. I also work with MongoDB for database management. I&apos;ve been
           involved in every stage of the development process, from gathering
           requirements to creating front and back-end components. As a{" "}
           <b>frontend and backend developer</b>, I am passionate about using
