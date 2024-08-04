@@ -14,7 +14,7 @@ export default function Sidebar() {
 
   return (
     <div className="flex flex-col md:flex-row md:min-h-screen">
-      <div className="fixed md:static z-10 flex flex-col w-full lg:w-80 text-gray-200 bg-gray-800">
+      <div className="fixed md:static z-10 flex flex-col w-full lg:w-80 text-gray-700 bg-white dark:text-gray-200 dark:bg-gray-800">
         <div className="flex-shrink-0 px-2 py-4 md:px-8 md:py-6 flex flex-row items-center justify-between">
           <div className="flex flex-row md:flex-col items-center">
             <Image
