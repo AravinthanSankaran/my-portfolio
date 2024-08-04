@@ -6,7 +6,7 @@ export default function HeroSection() {
   return (
     <div className="text-gray-700 min-h-screen flex items-center justify-center">
       <div className="container mx-auto px-6 py-12 lg:flex md:items-center mt-10">
-        <div className="w-full lg:w-1/2">
+        <div className="w-full mt-20 md:mt-0 lg:w-1/2">
           <p className="text-yellow-400 text-lg">
             <span className="mr-2">➜</span> Hey There, I’m Aravinthan R S
           </p>

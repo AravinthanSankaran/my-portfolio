@@ -3,7 +3,7 @@ import React from "react";
 function about() {
   return (
     <div className="container mx-auto">
-      <div className=" text-gray-700 font-semibold text-4xl md:text-5xl text-center mb-8 border-b-4 py-8  border-yellow-400 w-fit mx-auto pb-2">
+      <div className=" text-gray-700 font-semibold text-4xl md:text-5xl mt-20 md:mt-0 text-center mb-8 border-b-4 py-8  border-yellow-400 w-fit mx-auto pb-2">
         About Me
       </div>
       <div>
@@ -27,7 +27,7 @@ function about() {
           Personal Details
         </h3>
         <div className="mt-">
-          <div className="grid grid-cols-2 lg:grid-cols-4 justify-evenly items-center gap-8 text-gray-600">
+          <div className="grid grid-cols-2 lg:grid-cols-4 justify-evenly items-center gap-8 text-gray-600 mb-5">
             <div className="text-lg text-center">
               <b>Date of Birth</b>
               <br></br> 30-12-1998

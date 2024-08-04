@@ -63,7 +63,7 @@ function Project() {
     <>
       <section id="project" className="min-h-screen">
         <div className="container mx-auto">
-          <div className="text-gray-700 font-semibold text-4xl md:text-5xl text-center mb-8 border-b-4 py-8 border-yellow-400 w-fit mx-auto pb-2">
+          <div className="text-gray-700 mt-20 md:mt-0 font-semibold text-4xl md:text-5xl text-center mb-8 border-b-4 py-8 border-yellow-400 w-fit mx-auto pb-2">
             Projects
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 justify-center gap-8 animate-up-down">
