@@ -30,24 +30,6 @@ const projectData = [
   },
   {
     id: 3,
-    title: "LMS - Wordpress (official)",
-    image: Image3,
-    content:
-      "Developed with WordPress and Tutor LMS, this prototype serves as a foundation for reverse engineering, enabling a comprehensive learning management system with powerful features and a user-friendly interface.",
-    tech: "WordPress, Tutor-LMS, Reverse Engineering",
-    live: "https://learn.nanominds.io/",
-  },
-  {
-    id: 4,
-    title: "IoT - For (official Product)",
-    image: Image4,
-    content:
-      "Our IoT product uses Socket.IO for real-time communication and temporary OTP for secure login. With reusable UI components built with Tailwind CSS and React.js, it ensures seamless and secure access.",
-    tech: "Socket-IO, Nextjs/Reactjs, Tailwind CSS",
-    live: "https://play.nanominds.io/",
-  },
-  {
-    id: 5,
     title: "LMS Homepage",
     image: Image5,
     content:
@@ -56,17 +38,36 @@ const projectData = [
     git: "https://github.com/AravinthanSankaran/LMS_homepage",
     live: "https://learnmorelms.netlify.app/",
   },
+  {
+    id: 4,
+    title: "LMS - Wordpress (official)",
+    image: Image3,
+    content:
+      "Developed with WordPress and Tutor LMS, this prototype serves as a foundation for reverse engineering, enabling a comprehensive learning management system with powerful features and a user-friendly interface.",
+    tech: "WordPress, Tutor-LMS, Reverse Engineering",
+    live: "https://learn.nanominds.io/",
+  },
+  {
+    id: 5,
+    title: "IoT - For (official Product)",
+    image: Image4,
+    content:
+      "Our IoT product uses Socket.IO for real-time communication and temporary OTP for secure login. With reusable UI components built with Tailwind CSS and React.js, it ensures seamless and secure access.",
+    tech: "Socket-IO, Nextjs/Reactjs, Tailwind CSS",
+    live: "https://play.nanominds.io/",
+  },
+
 ];
 
 function Project() {
   return (
     <>
-      <section id="project" className="min-h-screen">
+      {/* <section id="project" className="min-h-screen">
         <div className="container mx-auto">
           <div className="text-gray-700 mt-20 md:mt-0 font-semibold text-4xl md:text-5xl text-center mb-8 border-b-4 py-8 border-yellow-400 w-fit mx-auto pb-2">
             Projects
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 justify-center gap-8 animate-up-down">
+          <div className="grid grid-cols-1 lg:grid-cols-2 justify-center gap-8 animate-up-down">
             {projectData.map((data) => (
               <div
                 key={data.id}
@@ -98,6 +99,62 @@ function Project() {
                       Git Link
                     </Link>
                   )}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section> */}
+      <section id="project" className="min-h-screen">
+        <div className="container mx-auto">
+          <div className="text-gray-700 mt-20 md:mt-0 font-semibold text-4xl md:text-5xl text-center mb-8 border-b-4 py-8 border-yellow-400 w-fit mx-auto pb-2">
+            Projects
+          </div>
+          <div className="grid grid-cols-1 justify-center gap-8 animate-up-down">
+            {projectData.map((data) => (
+              <div
+                key={data.id}
+                className="p-3 bg-gray-600 text-white border-4 border-yellow-400 rounded-lg overflow-hidden grid grid-cols-1 lg:grid-cols-3"
+              >
+                <div className="col-span-1 place-self-center lg:col-span-1">
+                  <Image
+                    src={data.image}
+                    // width={500}
+                    // height={500}
+                    className="object-contain"
+                  />
+                </div>
+                <div className="col-span-1 lg:col-span-2 flex flex-col justify-between p-4">
+                  <div>
+                    <h3 className="py-3 text-2xl font-semibold">
+                      {data.title}
+                    </h3>
+                    <p>{data.content}</p>
+                  </div>
+                  <div>
+                    <h4 className="text-xl font-semibold mt-4">Tech-Skills</h4>
+                    <p className="ml-5">{data.tech}</p>
+                  </div>
+                  <div className="flex gap-3 mt-4">
+                    {data.live && (
+                      <Link
+                        href={data.live}
+                        target="_blank"
+                        className="bg-yellow-400 px-4 py-2 rounded-md cursor-pointer hover:-translate-y-2 transition-all duration-300"
+                      >
+                        Go Live
+                      </Link>
+                    )}
+                    {data.git && (
+                      <Link
+                        href={data.git}
+                        target="_blank"
+                        className="bg-yellow-400 px-4 py-2 rounded-md cursor-pointer hover:-translate-y-2 transition-all duration-300 !bg-transparent !border-primary !border-2"
+                      >
+                        Git Link
+                      </Link>
+                    )}
+                  </div>
                 </div>
               </div>
             ))}

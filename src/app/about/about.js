@@ -23,10 +23,10 @@ function about() {
         </p>
       </div>
       <div className="">
-        <h3 className=" text-gray-700 font-semibold text-4xl md:text-5xl text-center mb-8 border-b-4 py-8  border-yellow-400 w-fit mx-auto pb-2">
+        <h3 className=" text-gray-700 font-semibold text-3xl md:text-4xl text-center mb-8 border-b-4 py-8  border-yellow-400 w-fit mx-auto pb-2">
           Personal Details
         </h3>
-        <div className="mt-">
+        <div className="">
           <div className="grid grid-cols-2 lg:grid-cols-4 justify-evenly items-center gap-8 text-gray-600 mb-5">
             <div className="text-lg text-center">
               <b>Date of Birth</b>

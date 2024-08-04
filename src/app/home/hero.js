@@ -7,7 +7,7 @@ export default function HeroSection() {
     <div className="text-gray-700 min-h-screen flex items-center justify-center">
       <div className="container mx-auto px-6 py-12 lg:flex md:items-center mt-10">
         <div className="w-full mt-20 md:mt-0 lg:w-1/2">
-          <p className="text-yellow-400 text-lg">
+          <p className="text-yellow-400 text-base md:text-xl">
             <span className="mr-2">➜</span> Hey There, I’m Aravinthan R S
           </p>
           <h1 className="text-4xl lg:text-5xl font-bold mt-4 animate-up-down flex-shrink-0">
@@ -21,12 +21,12 @@ export default function HeroSection() {
           </p>
           <div className="mt-8 flex space-x-4 items-center place-content-center lg:place-content-start">
             <Link
-              href="/resume/Aravinthan-R-S-Software_Developer.pdf"
+              href="/resume/aravinthan-developer-cv.pdf"
               className="bg-yellow-400 text-gray-900 text-center px-4 py-2 rounded-lg font-semibold hover:bg-yellow-500"
               download="Aravinthan-Resume"
               target="_blank"
             >
-              Resume
+             Get My Resume
             </Link>
           </div>
         </div>

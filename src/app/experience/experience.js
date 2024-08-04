@@ -30,7 +30,7 @@ const experienceData = [
 function Experience() {
   return (
     <>
-      <section id="experience" className="min-h-screen">
+      {/* <section id="experience" className="min-h-screen">
         <div className="container mx-auto">
           <div className="text-gray-700 mt-20 md:mt-0 font-semibold text-4xl md:text-5xl text-center mb-8 border-b-4 py-8 border-yellow-400 w-fit mx-auto pb-2">
             Work Experience
@@ -55,6 +55,42 @@ function Experience() {
                     <li key={index}>{tool}</li>
                   ))}
                 </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section> */}
+      <section id="experience" className="min-h-screen">
+        <div className="container mx-auto">
+          <div className="text-gray-700 mt-20 md:mt-0 font-semibold text-4xl md:text-5xl text-center mb-8 border-b-4 py-8 border-yellow-400 w-fit mx-auto pb-2">
+            Work Experience
+          </div>
+          <div className="grid grid-cols-1 justify-center gap-8 animate-up-down">
+            {experienceData.map((exp) => (
+              <div
+                key={exp.id}
+                className="flex flex-col p-6 bg-gray-600 text-white border-4 border-yellow-400 rounded-lg overflow-hidden"
+              >
+                <h3 className="text-2xl font-semibold">{exp.title}</h3>
+                <p className="py-3">{exp.description}</p>
+                <div className="flex flex-row justify-evenly">
+                  <div>
+                <h4 className="text-xl font-semibold mt-4">Skills</h4>
+                <ul className="list-disc ml-5">
+                  {exp.skills.map((skill, index) => (
+                    <li key={index}>{skill}</li>
+                  ))}
+                </ul>
+                </div>
+                <div>
+                <h4 className="text-xl font-semibold mt-4">Tools</h4>
+                <ul className="list-disc ml-5">
+                  {exp.tools.map((tool, index) => (
+                    <li key={index}>{tool}</li>
+                  ))}
+                </ul>
+                </div>
+                </div>
               </div>
             ))}
           </div>
