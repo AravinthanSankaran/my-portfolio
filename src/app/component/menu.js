@@ -88,7 +88,7 @@ export default function Sidebar() {
             </Link>
           </div>
           <a
-            className="flex px-4 py-2 mt-2 text-base font-semibold rounded-lg  dark:hover:bg-gray-600 text-gray-200 hover:bg-gray-200  focus:outline-none focus:shadow-outline"
+            className="flex px-4 py-2 mt-2 text-base font-semibold rounded-lg hover:bg-gray-600 text-gray-200 focus:outline-none focus:shadow-outline"
             href="/"
           >
             <FaHome className="mr-3 w-5 h-5" />
@@ -96,7 +96,7 @@ export default function Sidebar() {
           </a>
 
           <a
-           className="flex px-4 py-2 mt-2 text-base font-semibold rounded-lg  dark:hover:bg-gray-600 text-gray-200 hover:bg-gray-200  focus:outline-none focus:shadow-outline"
+           className="flex px-4 py-2 mt-2 text-base font-semibold rounded-lg  hover:bg-gray-600 text-gray-200 focus:outline-none focus:shadow-outline"
             href="/about"
           >
             <IoChatbox className="mr-3 w-5 h-5" />
@@ -104,27 +104,28 @@ export default function Sidebar() {
           </a>
 
           <a
-            className="flex px-4 py-2 mt-2 text-base font-semibold rounded-lg  dark:hover:bg-gray-600 text-gray-200 hover:bg-gray-200  focus:outline-none focus:shadow-outline"
+            className="flex px-4 py-2 mt-2 text-base font-semibold rounded-lg  hover:bg-gray-600 text-gray-200 focus:outline-none focus:shadow-outline"
             href="/experience"
           >
             <MdWork className="mr-3 w-5 h-5" />
             Experience
           </a>
           <a
-           className="flex px-4 py-2 mt-2 text-base font-semibold rounded-lg  dark:hover:bg-gray-600 text-gray-200 hover:bg-gray-200  focus:outline-none focus:shadow-outline"
+           className="flex px-4 py-2 mt-2 text-base font-semibold rounded-lg  hover:bg-gray-600 text-gray-200  focus:outline-none focus:shadow-outline"
           >
             <GrProjects className="mr-3 w-5 h-5" />
             Projects
           </a>
           <a
-           className="flex px-4 py-2 mt-2 text-base font-semibold rounded-lg  dark:hover:bg-gray-600 text-gray-200 hover:bg-gray-200  focus:outline-none focus:shadow-outline"
+           className="flex md:hidden px-4 py-2 mt-2 text-base font-semibold rounded-lg  hover:bg-gray-600 text-gray-200   focus:outline-none focus:shadow-outline"
             href="/contact"
           >
             <MdContactPhone className="mr-3 w-5 h-5" />
             Contact
           </a>
 
-          <div className="hidden md:flex flex-col px-4 py-2 mt-2 text-base font-semibold rounded-lg  dark:hover:bg-gray-600 text-gray-200 hover:bg-gray-200  focus:outline-none focus:shadow-outline">
+          <div className="hidden md:flex flex-col px-4 py-2 mt-2 text-base font-semibold rounded-lg  hover:bg-gray-600 text-gray-200  focus:outline-none focus:shadow-outline">
+          <p className="ml-8 mb-5">Contact Me</p>
             <p className="flex items-center">
               <MdContactPhone className="mr-3 w-5 h-5" />
               77087 - 10727
