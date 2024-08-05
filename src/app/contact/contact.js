@@ -17,7 +17,7 @@ const Contact = () => {
     },
   ];
   return (
-    <div id="contact" className="mb-20">
+    <div id="contact" className="m-20">
       <div className="text-gray-700 font-semibold text-4xl md:text-5xl text-center mb-8 border-b-4 py-8 border-yellow-400 w-fit mx-auto pb-2">
         Contact
       </div>

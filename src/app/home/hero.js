@@ -8,10 +8,10 @@ export default function HeroSection() {
       <div className="container mx-auto px-6 py-12 lg:flex md:items-center mt-10">
         <div className="w-full mt-20 md:mt-0 lg:w-1/2">
           <p className="text-yellow-400 text-base md:text-xl">
-            <span className="mr-2">➜</span> Hey There, I’m Aravinthan R S
+            <span className="mr-2">➜</span> Hey There, I’m<span className="text-gray-700 font-semibold"> Aravinthan R S</span>
           </p>
           <h1 className="text-4xl lg:text-5xl font-bold mt-4 animate-up-down flex-shrink-0">
-            I’M A <span className="text-yellow-400">Software</span> Developer
+           <span className="text-yellow-400">Software</span> Developer
           </h1>
           <p className="text-gray-600 mt-4">
             I am dedicated to delivering high-quality software that meets user

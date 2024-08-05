@@ -117,8 +117,16 @@ export default function Sidebar() {
             <GrProjects className="mr-3 w-5 h-5" />
             Projects
           </a>
+          <a
+            className="flex md:hidden px-4 py-2 mt-2 text-base font-semibold text-gray-900 bg-transparent rounded-lg dark:bg-transparent dark:hover:bg-gray-600 dark:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+            href="/contact"
+          >
+            <MdContactPhone className="mr-3 w-5 h-5" />
+            Contact
+          </a>
 
-          <div className="flex flex-col px-4 py-2 mt-2 text-base font-semibold text-gray-900 bg-transparent rounded-lg dark:bg-transparent dark:hover:bg-gray-600 dark:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
+          <div className="hidden md:flex flex-col px-4 py-2 mt-2 text-base font-semibold text-gray-900 bg-transparent rounded-lg dark:bg-transparent dark:hover:bg-gray-600 dark:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
+            <p className="ml-8 mb-5">Contact Me</p>
             <p className="flex items-center">
               <MdContactPhone className="mr-3 w-5 h-5" />
               77087 - 10727
