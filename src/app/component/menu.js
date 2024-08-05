@@ -14,7 +14,7 @@ export default function Sidebar() {
 
   return (
     <div className="flex flex-col md:flex-row md:min-h-screen">
-      <div className="fixed md:static z-10 flex flex-col w-full lg:w-80 text-gray-700 bg-white dark:text-gray-200 dark:bg-gray-800">
+      <div className="fixed md:static z-10 flex flex-col w-full lg:w-80 text-gray-200 bg-gray-800">
         <div className="flex-shrink-0 px-2 py-4 md:px-8 md:py-6 flex flex-row items-center justify-between">
           <div className="flex flex-row md:flex-col items-center">
             <Image
@@ -23,10 +23,10 @@ export default function Sidebar() {
               className="rounded-full w-14 h-14 md:w-24 md:h-24"
             />
             <div className="mt-0 md:mt-4 text-left md:text-center px-4 md:px-0">
-              <p className="text-base lg:text-xl font-semibold tracking-normal md:tracking-widest text-gray-900 uppercase rounded-lg dark:text-white">
+              <p className="text-base lg:text-xl font-semibold tracking-normal md:tracking-widest text-gray-200 uppercase rounded-lg">
                 Aravinthan R S
               </p>
-              <p className="text-sm lg:text-base text-gray-900 uppercase dark:text-white">
+              <p className="text-sm lg:text-base text-gray-200 uppercase ">
                 Software Developer
               </p>
             </div>
@@ -59,28 +59,28 @@ export default function Sidebar() {
         >
           <div className="flex items-center place-content-center mb-6 text-xl gap-4">
             <Link
-              className="border-primary border-2 p-2 rounded-full"
+              className="border-yellow-400 border-2 p-2 rounded-full"
               href="https://www.linkedin.com/in/aravinthan-sankaran/"
               target="_blank"
             >
               <FaLinkedin className="w-6 h-6 " />
             </Link>
             <Link
-              className="border-primary border-2 p-2 rounded-full"
+              className="border-yellow-400 border-2 p-2 rounded-full"
               href="https://github.com/AravinthanSankaran"
               target="_blank"
             >
               <FaGithub className="w-6 h-6" />
             </Link>
             <Link
-              className="border-primary border-2 p-2 rounded-full"
+              className="border-yellow-400 border-2 p-2 rounded-full"
               href="mailto:aravinthanrsnkl@gmail.com"
               target="_blank"
             >
               <MdEmail className="w-6 h-6" />
             </Link>
             <Link
-              className="border-primary border-2 p-2 rounded-full"
+              className="border-yellow-400 border-2 p-2 rounded-full"
               href="tel:+917708710727"
               target="_blank"
             >
@@ -88,7 +88,7 @@ export default function Sidebar() {
             </Link>
           </div>
           <a
-            className="flex px-4 py-2 mt-2 text-base font-semibold text-gray-900 bg-transparent rounded-lg dark:bg-transparent dark:hover:bg-gray-600 dark:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+            className="flex px-4 py-2 mt-2 text-base font-semibold rounded-lg  dark:hover:bg-gray-600 text-gray-200 hover:bg-gray-200  focus:outline-none focus:shadow-outline"
             href="/"
           >
             <FaHome className="mr-3 w-5 h-5" />
@@ -96,7 +96,7 @@ export default function Sidebar() {
           </a>
 
           <a
-            className="flex px-4 py-2 mt-2 text-base font-semibold text-gray-900 bg-transparent rounded-lg dark:bg-transparent dark:hover:bg-gray-600 dark:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+           className="flex px-4 py-2 mt-2 text-base font-semibold rounded-lg  dark:hover:bg-gray-600 text-gray-200 hover:bg-gray-200  focus:outline-none focus:shadow-outline"
             href="/about"
           >
             <IoChatbox className="mr-3 w-5 h-5" />
@@ -104,29 +104,27 @@ export default function Sidebar() {
           </a>
 
           <a
-            className="flex px-4 py-2 mt-2 text-base font-semibold text-gray-900 bg-transparent rounded-lg dark:bg-transparent dark:hover:bg-gray-600 dark:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+            className="flex px-4 py-2 mt-2 text-base font-semibold rounded-lg  dark:hover:bg-gray-600 text-gray-200 hover:bg-gray-200  focus:outline-none focus:shadow-outline"
             href="/experience"
           >
             <MdWork className="mr-3 w-5 h-5" />
             Experience
           </a>
           <a
-            className="flex px-4 py-2 mt-2 text-base font-semibold text-gray-900 bg-transparent rounded-lg dark:bg-transparent dark:hover:bg-gray-600 dark:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
-            href="/project"
+           className="flex px-4 py-2 mt-2 text-base font-semibold rounded-lg  dark:hover:bg-gray-600 text-gray-200 hover:bg-gray-200  focus:outline-none focus:shadow-outline"
           >
             <GrProjects className="mr-3 w-5 h-5" />
             Projects
           </a>
           <a
-            className="flex md:hidden px-4 py-2 mt-2 text-base font-semibold text-gray-900 bg-transparent rounded-lg dark:bg-transparent dark:hover:bg-gray-600 dark:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+           className="flex px-4 py-2 mt-2 text-base font-semibold rounded-lg  dark:hover:bg-gray-600 text-gray-200 hover:bg-gray-200  focus:outline-none focus:shadow-outline"
             href="/contact"
           >
             <MdContactPhone className="mr-3 w-5 h-5" />
             Contact
           </a>
 
-          <div className="hidden md:flex flex-col px-4 py-2 mt-2 text-base font-semibold text-gray-900 bg-transparent rounded-lg dark:bg-transparent dark:hover:bg-gray-600 dark:focus:bg-gray-600 dark:focus:text-white dark:hover:text-white dark:text-gray-200 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
-            <p className="ml-8 mb-5">Contact Me</p>
+          <div className="hidden md:flex flex-col px-4 py-2 mt-2 text-base font-semibold rounded-lg  dark:hover:bg-gray-600 text-gray-200 hover:bg-gray-200  focus:outline-none focus:shadow-outline">
             <p className="flex items-center">
               <MdContactPhone className="mr-3 w-5 h-5" />
               77087 - 10727
