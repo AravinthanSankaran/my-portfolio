@@ -112,6 +112,7 @@ export default function Sidebar() {
           </a>
           <a
            className="flex px-4 py-2 mt-2 text-base font-semibold rounded-lg  hover:bg-gray-600 text-gray-200  focus:outline-none focus:shadow-outline"
+          href="/project"
           >
             <GrProjects className="mr-3 w-5 h-5" />
             Projects
