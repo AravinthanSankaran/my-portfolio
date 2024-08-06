@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="flex flex-col md:flex-row bg-">
+        <div className="flex flex-col md:flex-row">
           <Menu />
           {children}
         </div>
