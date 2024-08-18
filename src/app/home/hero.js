@@ -21,9 +21,9 @@ export default function HeroSection() {
           </p>
           <div className="mt-8 flex space-x-4 items-center place-content-center lg:place-content-start">
             <Link
-              href="/resume/aravinthan-developer-cv.pdf"
+              href="/resume/Aravinthan-R-S-Resume.pdf"
               className="bg-yellow-400 text-gray-900 text-center px-4 py-2 rounded-lg font-semibold hover:bg-yellow-500"
-              download="Aravinthan-Resume"
+              download="Aravinthan-Developer-CV"
               target="_blank"
             >
              Get My Resume

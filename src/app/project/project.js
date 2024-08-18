@@ -3,9 +3,10 @@ import React from "react";
 import Link from "next/link";
 import Image1 from "../../../public/images/dishdiscoveryapp.png";
 import Image2 from "../../../public/images/stonezenconstruction.png";
-import Image3 from "../../../public/images/learnnanomind.png";
-import Image4 from "../../../public/images/playnanomind.png";
-import Image5 from "../../../public/images/lmslearnpage.png";
+import Image3 from "../../../public/images/lmslearnpage.png";
+import Image4 from "../../../public/images/fullcalender.png";
+import Image5 from "../../../public/images/learnnanomind.png";
+import Image6 from "../../../public/images/playnanomind.png";
 
 const projectData = [
   {
@@ -31,7 +32,7 @@ const projectData = [
   {
     id: 3,
     title: "LMS Homepage",
-    image: Image5,
+    image: Image3,
     content:
       "Our LMS homepage, built with Next.js and Tailwind CSS, includes a popup call button, chatbot, and MongoDB-connected enquiry form for secure data storage, ensuring a seamless, interactive user experience.",
     tech: "Nextjs/Reactjs, Tailwind CSS, Express, MongoDB, React-Form-Hook",
@@ -40,23 +41,32 @@ const projectData = [
   },
   {
     id: 4,
+    title: "Master Machine Learning: From Basics To Advanced",
+    image: Image4,
+    content:
+      "This project for an advanced machine learning course includes a calendar for scheduling lessons, built with FullCalendar and styled using Tailwind CSS. The project data, such as the title, image, content, technologies, and links, is stored in a Hardcode Data object and can be easily accessed locally using the Callback() function.",
+    tech: "Nextjs/Reactjs, Tailwind CSS, FullCalendar",
+    git: "https://github.com/AravinthanSankaran/assignment-1",
+    live: "https://assignmentnextjs14.netlify.app/",
+  },
+  {
+    id: 5,
     title: "LMS - Wordpress (official)",
-    image: Image3,
+    image: Image5,
     content:
       "Developed with WordPress and Tutor LMS, this prototype serves as a foundation for reverse engineering, enabling a comprehensive learning management system with powerful features and a user-friendly interface.",
     tech: "WordPress, Tutor-LMS, Reverse Engineering",
     live: "https://learn.nanominds.io/",
   },
   {
-    id: 5,
+    id: 6,
     title: "IoT - For (official Product)",
-    image: Image4,
+    image: Image6,
     content:
       "Our IoT product uses Socket.IO for real-time communication and temporary OTP for secure login. With reusable UI components built with Tailwind CSS and React.js, it ensures seamless and secure access.",
     tech: "Socket-IO, Nextjs/Reactjs, Tailwind CSS",
     live: "https://play.nanominds.io/",
   },
-
 ];
 
 function Project() {
@@ -119,8 +129,8 @@ function Project() {
                 <div className="col-span-1 place-self-center lg:col-span-1">
                   <Image
                     src={data.image}
-                    // width={500}
-                    // height={500}
+                    width={500}
+                    height={500}
                     className="object-contain"
                   />
                 </div>
