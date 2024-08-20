@@ -39,18 +39,18 @@ const projectData = [
     git: "https://github.com/AravinthanSankaran/LMS_homepage",
     live: "https://learnmorelms.netlify.app/",
   },
+  // {
+  //   id: 4,
+  //   title: "Master Machine Learning: From Basics To Advanced",
+  //   image: Image4,
+  //   content:
+  //     "This project for an advanced machine learning course includes a calendar for scheduling lessons, built with FullCalendar and styled using Tailwind CSS. The project data, such as the title, image, content, technologies, and links, is stored in a Hardcode Data object and can be easily accessed locally using the Callback() function.",
+  //   tech: "Nextjs/Reactjs, Tailwind CSS, FullCalendar",
+  //   git: "https://github.com/AravinthanSankaran/assignment-1",
+  //   live: "https://assignmentnextjs14.netlify.app/",
+  // },
   {
     id: 4,
-    title: "Master Machine Learning: From Basics To Advanced",
-    image: Image4,
-    content:
-      "This project for an advanced machine learning course includes a calendar for scheduling lessons, built with FullCalendar and styled using Tailwind CSS. The project data, such as the title, image, content, technologies, and links, is stored in a Hardcode Data object and can be easily accessed locally using the Callback() function.",
-    tech: "Nextjs/Reactjs, Tailwind CSS, FullCalendar",
-    git: "https://github.com/AravinthanSankaran/assignment-1",
-    live: "https://assignmentnextjs14.netlify.app/",
-  },
-  {
-    id: 5,
     title: "LMS - Wordpress (official)",
     image: Image5,
     content:
@@ -59,7 +59,7 @@ const projectData = [
     live: "https://learn.nanominds.io/",
   },
   {
-    id: 6,
+    id: 5,
     title: "IoT - For (official Product)",
     image: Image6,
     content:
