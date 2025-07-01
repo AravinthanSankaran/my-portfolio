@@ -1,25 +1,31 @@
 import React from "react";
 
 const experienceData = [
-  {
+    {
     id: 1,
-    title: "Frontend Developer",
+    title: "Utasha Technologies, React Developer",
+    duration: "Sep 2024 – Present",
+    location: "Coimbatore, India",
     description:
-      "Experienced in React for building dynamic, responsive UIs, Next.js for server-side rendering (SSR) and static site generation (SSG), WordPress for content management, and Tailwind CSS for creating efficient, visually appealing designs.",
-    skills: ["Nextjs/Reactjs", "Tailwind CSS", "JavaScript", "Wordpress"],
-    tools: ["VS Code", "Figma", "Git", "Canva"],
+      "Enhanced performance and user experience by debugging and optimizing React components. Designed reusable UI components, collaborated with backend teams for API integration, and followed agile practices. Utilized design tools like Figma/XD and managed tasks via Jira to streamline development workflows.",
+    skills: ["React.js","CSS", "JavaScript", "API Integration", "Responsive Design"],
+    tools: ["VS Code", "Adobe-XD", "Jira", "GitLab"],
   },
   {
     id: 2,
-    title: "Backend Developer",
+    title: "Iovate Technologies LLP, Software Developer",
+    duration: "Oct 2022 – Aug 2024",
+    location: "Coimbatore, India",
     description:
-      "Familiar with Node.js for building server-side applications and RESTful APIs. Basic knowledge of Express.js, MongoDB, and authentication. Learning to optimize performance and integrate frontend and backend components.",
-    skills: ["Node.js", "Express.js", "MongoDB", "Socket.io"],
-    tools: ["Docker", "Postman", "Git"],
+      "Built reusable, responsive UI components using React/Next.js and Tailwind CSS. Explored new tools, created PoCs, and leveraged AI tools to optimize code quality. Gained hands-on experience with Node.js, REST APIs, Docker, databases, and Postman. Worked on implementing autonomous navigation and object recognition.",
+    skills: ["Next.js", "Tailwind CSS", "JavaScript", "Node.js", "MongoDB"],
+    tools: ["VS Code", "Figma", "GitHub", "Canva", "Postman", "Docker", "NPM"],
   },
   {
     id: 3,
-    title: "Robotics and Automation",
+    title: "Iovate Technologies LLP, RPA Developer",
+    duration: "Oct 2022 – Aug 2024",
+    location: "Coimbatore, India",
     description:
       "Familiar with Robotics Process Automation (RPA) using Python3, ROS-2, and Node-RED.js. Basic understanding of OpenCV for computer vision and AI tools for improving automation and decision-making.",
     skills: ["ROS2", "Nav2", "OpenCV", "Python"],
@@ -72,6 +78,7 @@ function Experience() {
                 className="flex flex-col p-6 bg-gray-600 text-white border-4 border-yellow-400 rounded-lg overflow-hidden"
               >
                 <h3 className="text-2xl font-semibold">{exp.title}</h3>
+                <h4 className="text-lg font-medium italic">{exp?.duration} || {exp?.location}</h4>
                 <p className="py-3">{exp.description}</p>
                 <div className="flex flex-row justify-evenly">
                   <div>

@@ -9,17 +9,13 @@ function about() {
       <div>
         {" "}
         <p className="text-gray-600 text-lg text-justify md:text-center">
-          I have nearly <b>two</b> years of experience in web development,
-          specializing in building applications with React, Next.js, and
-          Node.js. I also work with MongoDB for database management. I&apos;ve been
-          involved in every stage of the development process, from gathering
-          requirements to creating front and back-end components. As a{" "}
-          <b>frontend and backend developer</b>, I am passionate about using
-          HTML, CSS, JavaScript, and various backend technologies to create
-          innovative web applications. Additionally, I have experience with
-          Python for <b>Robotics Process Automation (RPA)</b>, which I consider
-          a secondary focus. I am always looking for new technologies to grow
-          and apply my skills in both frontend and backend development.
+          I'm a passionate <b>web developer</b> with nearly <b>2.5 years</b> of hands-on experience in building modern web applications using <b>React, Next.js, and Node.js</b>. I specialize in crafting seamless user interfaces and Beginner Level in backend systems, with <b>MongoDB and SQL</b> as my go-to for efficient database management.
+
+          Throughout my journey, I’ve been actively involved in every phase of the development lifecycle — from requirement gathering to designing and developing <b>end-to-end solutions.</b> I well in writing <b>clean, maintainable code</b> and Good <b>Prompter</b> and a range of backend technologies to deliver impactful digital experiences.
+
+          In addition to web development, I have experience with Python for <b>Robotic Process Automation (RPA)</b>, which complements my technical toolkit and offers automation-driven solutions.
+
+          I'm constantly exploring new tools and technologies, and I thrive on opportunities that challenge me to grow as both a frontend and backend developer.
         </p>
       </div>
       <div className="">

@@ -7,6 +7,7 @@ import Image3 from "../../../public/images/lmslearnpage.png";
 import Image4 from "../../../public/images/fullcalender.png";
 import Image5 from "../../../public/images/learnnanomind.png";
 import Image6 from "../../../public/images/playnanomind.png";
+import Image7 from "../../../public/images/Hapicare.png";
 
 const projectData = [
   {
@@ -51,7 +52,7 @@ const projectData = [
   },
   {
     id: 5,
-    title: "LMS - Wordpress (official)",
+    title: "LMS - Wordpress (official) @Iovate",
     image: Image5,
     content:
       "Developed with WordPress and Tutor LMS, this prototype serves as a foundation for reverse engineering, enabling a comprehensive learning management system with powerful features and a user-friendly interface.",
@@ -60,12 +61,21 @@ const projectData = [
   },
   {
     id: 6,
-    title: "IoT - For (official Product)",
+    title: "IoT - For (official Product) @Iovate",
     image: Image6,
     content:
       "Our IoT product uses Socket.IO for real-time communication and temporary OTP for secure login. With reusable UI components built with Tailwind CSS and React.js, it ensures seamless and secure access.",
     tech: "Socket-IO, Nextjs/Reactjs, Tailwind CSS",
     live: "https://play.nanominds.io/",
+  },
+  {
+    id: 7,
+    title: "Credentialing & Privileging Manager (official Product) @Utasha",
+    image: Image7,
+    content:
+      "Built an LLM-based system for document credentialing with editable applicant data and multi-level review, reducing manual entry and improving accuracy.",
+    tech: "React-js, CSS, Swagger",
+    live: "https://indocaribe.com",
   },
 ];
 

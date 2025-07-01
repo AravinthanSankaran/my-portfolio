@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import Profile from "../../../public/images/avatar1.png";
 import { IoChatbox } from "react-icons/io5";
@@ -11,6 +11,12 @@ import Link from "next/link";
 
 export default function Sidebar() {
   const [open, setOpen] = useState(false);
+  const [currentPath, setCurrentPath] = useState('');
+
+   useEffect(() => {
+    // Ensures it only runs on client
+    setCurrentPath(window.location.pathname);
+  }, []);
 
   return (
     <div className="flex flex-col md:flex-row md:min-h-screen">
@@ -87,33 +93,41 @@ export default function Sidebar() {
               <MdContactPhone className="w-6 h-6" />
             </Link>
           </div>
-          <a
-            className="flex px-4 py-2 mt-2 text-base font-semibold rounded-lg hover:bg-gray-600 text-gray-200 focus:outline-none focus:shadow-outline"
-            href="/"
-          >
+           <a
+              className={`flex px-4 py-2 mt-2 text-base font-semibold rounded-lg 
+                ${currentPath === '/' ? 'bg-gray-700' : 'hover:bg-gray-600'} 
+                text-gray-200 focus:outline-none focus:shadow-outline`}
+              href="/"
+            >
             <FaHome className="mr-3 w-5 h-5" />
             Home
           </a>
 
-          <a
-           className="flex px-4 py-2 mt-2 text-base font-semibold rounded-lg  hover:bg-gray-600 text-gray-200 focus:outline-none focus:shadow-outline"
-            href="/about"
-          >
+           <a
+              className={`flex px-4 py-2 mt-2 text-base font-semibold rounded-lg 
+                ${currentPath === '/about' ? 'bg-gray-700' : 'hover:bg-gray-600'} 
+                text-gray-200 focus:outline-none focus:shadow-outline`}
+              href="/about"
+            >
             <IoChatbox className="mr-3 w-5 h-5" />
             About
           </a>
 
-          <a
-            className="flex px-4 py-2 mt-2 text-base font-semibold rounded-lg  hover:bg-gray-600 text-gray-200 focus:outline-none focus:shadow-outline"
-            href="/experience"
-          >
+           <a
+              className={`flex px-4 py-2 mt-2 text-base font-semibold rounded-lg 
+                ${currentPath === '/experience' ? 'bg-gray-700' : 'hover:bg-gray-600'} 
+                text-gray-200 focus:outline-none focus:shadow-outline`}
+              href="/experience"
+            >
             <MdWork className="mr-3 w-5 h-5" />
             Experience
           </a>
           <a
-           className="flex px-4 py-2 mt-2 text-base font-semibold rounded-lg  hover:bg-gray-600 text-gray-200  focus:outline-none focus:shadow-outline"
-          href="/project"
-          >
+              className={`flex px-4 py-2 mt-2 text-base font-semibold rounded-lg 
+                ${currentPath === '/project' ? 'bg-gray-700' : 'hover:bg-gray-600'} 
+                text-gray-200 focus:outline-none focus:shadow-outline`}
+              href="/project"
+            >
             <GrProjects className="mr-3 w-5 h-5" />
             Projects
           </a>

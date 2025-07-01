@@ -14,14 +14,13 @@ export default function HeroSection() {
            <span className="text-yellow-400">Software</span> Developer
           </h1>
           <p className="text-gray-600 mt-4">
-            I am dedicated to delivering high-quality software that meets user
-            needs and business objectives. I strive to contribute to the success
-            of every project, whether working independently or as part of a
-            team.
+            I am committed to delivering high-quality, user-focused software that aligns with both business 
+            goals and end-user needs. With a strong sense of ownership and collaboration, I strive to make 
+            a meaningful impact on every project—whether working independently or as a <b>valuable team player.</b>
           </p>
           <div className="mt-8 flex space-x-4 items-center place-content-center lg:place-content-start">
             <Link
-              href="/resume/Aravinthan-R-S-Resume.pdf"
+              href="/resume/Aravinthan-R-S-Resume-Developer.pdf"
               className="bg-yellow-400 text-gray-900 text-center px-4 py-2 rounded-lg font-semibold hover:bg-yellow-500"
               download="Aravinthan-Developer-CV"
               target="_blank"
