@@ -9,13 +9,13 @@ function about() {
       <div>
         {" "}
         <p className="text-gray-600 text-lg text-justify md:text-center">
-          I'm a passionate <b>web developer</b> with nearly <b>2.5 years</b> of hands-on experience in building modern web applications using <b>React, Next.js, and Node.js</b>. I specialize in crafting seamless user interfaces and Beginner Level in backend systems, with <b>MongoDB and SQL</b> as my go-to for efficient database management.
+          I&apos;m a passionate <b>web developer</b> with nearly <b>2.5 years</b> of hands-on experience in building modern web applications using <b>React, Next.js, and Node.js</b>. I specialize in crafting seamless user interfaces and Beginner Level in backend systems, with <b>MongoDB and SQL</b> as my go-to for efficient database management.
 
-          Throughout my journey, I’ve been actively involved in every phase of the development lifecycle — from requirement gathering to designing and developing <b>end-to-end solutions.</b> I well in writing <b>clean, maintainable code</b> and Good <b>Prompter</b> and a range of backend technologies to deliver impactful digital experiences.
+          Throughout my journey, I&apos;ve been actively involved in every phase of the development lifecycle — from requirement gathering to designing and developing <b>end-to-end solutions.</b> I well in writing <b>clean, maintainable code</b> and Good <b>Prompter</b> and a range of backend technologies to deliver impactful digital experiences.
 
           In addition to web development, I have experience with Python for <b>Robotic Process Automation (RPA)</b>, which complements my technical toolkit and offers automation-driven solutions.
 
-          I'm constantly exploring new tools and technologies, and I thrive on opportunities that challenge me to grow as both a frontend and backend developer.
+          I&apos;m constantly exploring new tools and technologies, and I thrive on opportunities that challenge me to grow as both a frontend and backend developer.
         </p>
       </div>
       <div className="">
